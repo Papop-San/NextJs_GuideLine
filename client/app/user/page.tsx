@@ -1,3 +1,5 @@
+import { Suspense } from "react";
+
 // Define the Blog type interface
 interface Blog {
     id: string;
@@ -38,3 +40,5 @@ export default async function Page() {
         </div>
     );
 }
+
+
